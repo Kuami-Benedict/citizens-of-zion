@@ -1,0 +1,237 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+.header{
+    background-color: beige;
+     min-height: 100vh;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+}
+.nav-links {
+    display: flex;
+    gap: 20px;
+   
+}
+.nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 0;
+    margin: 0px;
+    margin-left: 40%;
+}
+.nav-links li {
+    margin-left: 70%;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.nav-links a {
+    color: #fff;
+}
+.logo {
+    border-radius: 0%;
+    float: left;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 90%;
+    align-items: flex-end;
+}
+.search {
+width: 0px;
+float: left;
+margin: 20px;
+display: flex;
+margin-left: 20px;
+
+
+}
+.srch{
+    width: 80px;
+    height: 20px;
+    background: transparent;
+    font-style: italic;
+    color: white;
+}
+
+.donate-header {
+    margin-top: -10%;
+    background: linear-gradient( to top, rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/worship.jpd2.jpg) center/cover;
+    text-align: center;
+    padding: 100px 100px 10px;
+    height: 350px;
+}
+
+.donate-header h1 {
+    font-size: 50px;
+    align-items: center;
+    color: white;
+    margin-top: 15%;
+}
+.donate-header h2 {
+    
+    color: white;
+}
+.text-box1 h1 {
+    color: #333333;
+    font-size: large;
+}
+.text-box1 {
+    margin-top: 4%;
+    margin-left: 3%;
+    width: 400px;
+    text-align: center;
+    border-radius: 5%;
+    box-shadow: 0 2px 8px rgba(0,0,0);
+    
+}
+hr {
+    border: none;
+    height: 255px;
+    background-color: #000;
+    margin: 20px;
+    width: 2px;
+    margin-left: 33%;
+    margin-top: -15%;
+}
+.image {
+width: 10%;
+height: 5%;
+margin-top: -20%;
+margin-left: 35%;
+border: none;
+display: flex;
+}
+.image1 {
+    width: 12%;
+    height: 84px;
+    margin-top: -84px;
+    margin-left: 47%;
+    border: none;
+    display: flex;
+}
+.mo-mo {
+    margin-left: 35%;
+    margin-top: 2%;
+    border-radius: 5%;
+    text-align: center;
+    box-shadow: 0 2px 8px rgba(0,0,0);
+    width: 300px;
+}
+.image, .image1, .mo-mo {
+    background-color: beige;;
+    border-radius: 5%;
+    box-shadow: 0 2px 8px rgba(0,0,0);
+}
+.momo-form {
+    margin-left: 65%;
+    margin-top: -16%;
+    width: 400px;
+    background-color: beige;;
+    border-radius: 5%;
+    box-shadow: 0 2px 8px rgba(0,0,0);
+}
+.momo-form input, .momo-form button {
+    width: 70%;
+    padding: 5px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+@media(max-width: 1024px)  {
+.donate-header h1{
+    font-size: 30px;
+    text-align: center;
+}
+.donate-header h2 {
+    padding: 10px 10px;
+    font-size: 16px;
+    text-align: center;
+}
+.nav-links {
+    display: none;
+    position: absolute;
+    right: 3%;
+    background-color: rgba(255,255,255,0.1);
+    text-align: left;
+    backdrop-filter: blur(20px);
+    width: 40%;
+}
+.search {
+    margin: 2px;
+    display: flex;
+    margin-left: 8px;
+}
+.srch {
+    margin-left: -20px;
+}
+.btn {
+    margin-left: 8px;
+    margin: 10px;
+}
+.nav-links ul{
+    flex-direction: column;
+}
+.nav-links li {
+    margin: 15px;
+}
+.nav-links.active {
+    display: flex;
+}
+.logo {
+    width: 50px;
+    height: auto;
+}
+.menu-toggle {
+    display: block;
+    color: white;
+
+}
+.nav-links a {
+    display: block;
+    font-size: 15px;
+    margin: -10px;
+}
+    .text-box1 {
+        margin: 5%;
+        margin-left: 3%;
+        width: 90%;
+    }
+    hr {
+        width: 90%;
+        margin: 2%;
+        height: 2px;
+        margin-left: 0%;
+    }
+    .image {
+    display: flex;
+    margin: 7%;
+    width: 20%;
+    margin-bottom: -16%;
+    margin-left: 10%;
+    }
+    .image1 {
+        margin: 3%;
+        width: 20%;
+        margin-left: 48%;
+    }
+    
+    .momo-form, .mo-mo {
+        margin: 1%;
+        width: 60%;
+        margin-left: 10%;
+    }
+
+
+}

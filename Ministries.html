@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Ministries</title>
+    <link rel="stylesheet" href="ministries.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+
+
+    <!------------------Things on the navigation bar and their links----------------------->
+
+    <div class="header">  
+            <div>
+                <img src="images/zion.jpg" alt="logo" class="logo">
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+<script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
+        <nav class="nav-links">
+            <ul>
+              <li> <a href="index.html">Home</a></li> 
+              <li> <a href="about.html">About</a></li>
+                    <li> <a href="ministries.html">Ministries</a></li>
+                        <li> <a href="donate.html">Donate</a></li>
+                            <li> <a href="contact.html">Contact</a></li>
+                            <div class="search">
+                                <input class="srch" type="search" name="" placeholder="type to text">
+                                <a href="#"><button class="btn"><ion-icon name="search"></button></a>
+                
+                            </div>
+                        </ul> 
+        </nav>
+        <div class="min"><h1><u>Our Ministries</u></h1></div>
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    </div>   
+    <section class="ministries">
+        <div class="row">
+            <div class="ministry-col">
+                <h2>Youth Ministry</h2>
+                <p class="par">Engaging and empowering the next<br> generation through worship, mentorship,<br> and relevant teachings.</p>
+            </div>
+            <div class="ministry-col">
+                <h2>Women's Ministry</h2>
+                <p class="par">Creating a space for spiritual growth, support,<br> and fellowship among women of all ages.</p>
+            </div>
+            <div class="ministry-col">
+                <h2>Children's Ministry</h2>
+                <p class="par">Nurturing young hearts in the love and knowledge<br> of Christ through fun and interactive learning.</p>
+            </div>
+            <div class="ministry-col">
+                <h2>Prayer Ministry</h2>
+                <p class="par">Dedicated to intercession and spiritual support<br> through organized prayer meetings and vigils.
+                </p>
+            </div>
+            <div class="ministry-col">
+                <h2>Evangelism Ministry</h2>
+                <p class="par">Spreading the gospel through outreach, <br>community service, and missions.</p>
+            </div>
+            <div class="ministry-col">
+                <h2><abbr title="Zion Praise Team">Music and Worship Ministry</abbr></h2>
+                <p class="par">Leading the congregation into the presence<br> of God through music and praise.</p>
+            </div>
+            <div class="ministry-col">
+                <h2>Media and Tech Ministry</h2>
+                <p class="par">Handling sound, video, and digital outreach<br> to enhance our worship experience and online presence.</p>
+            </div>
+        </div>
+
+       
+
+    </section>
+    
+</body>
+</html>

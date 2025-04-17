@@ -1,0 +1,190 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+    
+}
+
+    
+.header {
+    background: linear-gradient( to top, rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(images/worship.jpd2.jpg);
+    max-height: -100vh;
+     width: 100%;
+     background-position: center;
+     background-size: cover;
+     position: relative;   
+}
+.nav {
+    height: 100vh;
+    
+
+}
+.nav-links ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0px;
+    margin-left: 40%;
+
+}
+.nav-links li {
+    margin-left: 70%;
+    justify-content: space-between;
+    margin: 20px;
+    
+}
+.nav-links a {
+    color: #fff;
+}
+.logo {
+    border-radius: 0%;
+    float: left;
+    align-items: center;
+    height: 50px;
+    width: 50px;
+    margin-left: 30px;
+}
+.menu-toggle {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+    margin-left: 90%;
+    align-items: flex-end;
+}
+.search {
+    margin: 20px;
+    display: flex;
+    margin-left: 20px;
+}
+.srch{
+    width: 80px;
+    height: 20px;
+    background: transparent;
+    font-style: italic;
+    color: white;
+}
+.about {
+    text-align: center;
+    color: white;
+    align-items: center;
+    
+}
+.about h1 {
+    font-size: 80px;
+    margin-top: 10%;
+}
+.about h2 {
+    padding-top: 20px;
+}
+.about-us {
+    background-color: #d2e5e9;
+    color: black;
+}
+.about-us h1 {
+    color: #ff6b6b;
+    text-align: center;
+    padding-top: 5%;
+}
+.about-us h2 {
+    text-align: center;
+    margin-top:2%;
+    font-size: x-large;
+    margin: 2% 10%;
+}
+.row {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    
+
+
+}
+ .row img {
+    width: 400px;
+    height: 80%   
+}
+.leaders-col {
+    margin-top: 10%;
+    padding: auto;
+}
+@media(max-width: 1024px)  {
+.about-us{
+    align-items: center;
+    width: 100%;
+}
+.about h1 {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 20%;
+}
+.about h2{
+        font-size: 18px;
+        text-align: center;
+
+}
+
+   .nav-links {
+        display: none;
+        position: absolute;
+        right: 10%;
+        background-color: rgba(255,255,255,0.1);
+        text-align: center;
+        backdrop-filter: blur(20px);
+        width: 40%;
+}
+
+    .search {
+        margin: 2px;
+        display: flex;
+        margin-left: 8px;
+}
+    .srch {
+        margin-left: -20px;
+}
+    .btn {
+        margin-left: 8px;
+        margin: 10px;
+}
+    .nav-links ul{
+        flex-direction: column;
+}
+    .nav-links li {
+        margin: 15px;
+}
+    .nav-links.active {
+        display: flex;
+}
+    .logo {
+        width: 50px;
+        height: auto;
+}
+.menu-toggle {
+        display: block;
+        color: white;
+
+}
+    .nav-links a {
+        display: block;
+        font-size: 15px;
+        margin: -10px;
+}
+.row{
+    flex-direction: column;
+    align-items: center;
+}
+.row img {
+    margin-left: 10%;
+    width: 300px;
+    height: 400px;
+    padding-bottom: -10px;
+}
+.row video {
+    align-items: center;
+    margin-left: 9%;
+    width: 300px;
+    height: 300px;
+    
+}
+}

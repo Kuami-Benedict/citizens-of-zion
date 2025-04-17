@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <link rel="stylesheet" href="contact.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+</head>
+<body>
+    
+    <!------------------Things on the navigation bar and their links----------------------->
+    <div class="header">  
+            <div>
+                <img src="images/zion.jpg" alt="logo" class="logo">
+            </div>
+            <div class="menu-toggle" onclick="toggleMenu()">☰</div>
+<script>
+  function toggleMenu() {
+    document.querySelector('.nav-links').classList.toggle('active');
+  }
+</script>
+        <nav class="nav-links">
+            <ul>
+              <li> <a href="index.html">Home</a></li> 
+              <li> <a href="about.html">About</a></li>
+                    <li> <a href="ministries.html">Ministries</a></li>
+                        <li> <a href="donate.html">Donate</a></li>
+                            <li> <a href="contact.html">Contact</a></li>
+                            <div class="search">
+                                <input class="srch" type="search" name="" placeholder="type to text">
+                                <a href="#"><button class="btn"><ion-icon name="search"></button></a>
+                
+                            </div>
+                        </ul> 
+        </nav>
+
+        <section class="contact-header">
+           <div><h1>Contact Us</h1></div>
+          
+        </section>
+
+        <!--------------Inserting map linking google map---------------->
+
+        <section class="map-box"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27984.634245342335!2d-1.9740203343775728!3d7.3997059356432295!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfdaf39d5bf45beb%3A0xa1b0f83fb55b70f0!2sCITIZENS%20OF%20ZION%20MINISTRY!5e1!3m2!1sen!2sgh!4v1743949799094!5m2!1sen!2sgh"  width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe></section>  
+        
+        <!----------------Inserting Address and location-------------->
+
+        <div class="text-box1">
+            <h2>Address</h2>
+            <h5><ion-icon name="home"></ion-icon>
+               <u>Gathering Location</u> 
+                <br>
+                    Akumadan Citizens Of Zion Ministry <br>Auditorium, behind the education service.
+                   <br><br><ion-icon name="home"></ion-icon>
+                        GPS Address: A6-0073-7619
+                    <br><br><ion-icon name="call"></ion-icon>
+                    +233-541418927
+            </h5>
+        </div>
+
+        <!--------------Inserting contact form----------------------------->
+
+        <div class="prayer-form">
+            <form name="Prayer" method="POST" data-netlify="true" action="thank-you.html">
+            <input type="hidden" name="form-name" value="prayer">
+            <h2>Prayer Request</h2><br>
+            <label for="name">Name</label>
+            <input type="text" name="name" placeholder="type your name" id="name">
+            <br><br>
+            <label for="email">Email</label>
+            <input type="email" name="email" placeholder="123456789@gmail.com" required id="email">
+        
+            <br>Are you a church member?
+            <br>
+            <label><input type="radio" name="church_member" value="Yes" required>Yes</label>
+            <br>
+            <label><input type="radio" name="church_member" value="No" required>No</label>
+            <br>
+            <textarea name="Prayer" placeholder="Prayer Requests"></textarea>
+            <br>
+            <a href="thank-you.html"><button type="submit">Send</button></a>
+        </form>
+        </div>
+
+        <!------------------Inserting contact form------------------------------>
+
+        <div class="contact-form">
+            <form name="contact" method="POST" data-netlify="true" action="thank-you.html">
+                <input type="hidden" name="form-name" value="prayer">
+            <h2>Contact Form</h2><br>
+            <label for="name1">Name</label>
+            <input type="text" name="name" placeholder="type your name" id="name1" required>
+            <br><br>
+            <label for="email1">Name</label>
+            <input type="email" name="email" placeholder="123456789@gmail.com" id="email1" required>
+            <br><br>
+             Are you a church member?
+            <br>
+            <label><input type="radio" name="church_member" value="Yes">Yes</label>
+            <br>
+            <label><input type="radio" name="church_member" value="No">No</label>
+            <br>
+            <textarea name="message" placeholder="Your message"></textarea>
+            <br>
+                <a href="thank-you.html"><button type="submit">Send</button></a>
+             </form>
+        </div>
+        <link href="Status](https://api.netlify.com/api/v1/badges/26713adc-ebb4-44ac-bf62-8ed8a4526224/deploy-status)](https://app.netlify.com/sites/citizens-of-zion-min/deploys)">
+        <script src="https://unpkg.com/ionicons@4.5.10-0/dist/ionicons.js"></script>
+    </div>   
+</body>
+</html>
