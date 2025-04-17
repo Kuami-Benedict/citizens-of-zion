@@ -175,14 +175,14 @@
     align-items: center;
 }
 .row img {
-    margin-left: 10%;
+    margin-left: 5%;
     width: 300px;
     height: 400px;
     padding-bottom: -10px;
 }
 .row video {
     align-items: center;
-    margin-left: 9%;
+    margin-left: 5%;
     width: 300px;
     height: 300px;
     
