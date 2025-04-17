@@ -142,9 +142,8 @@ h1{
         margin-left: 8px;
         margin: 10px;
     }
-    icon ion-icon{
-    
-        font-size: 15px;
+    .icon ion-icon{
+        font-size: 25px;
         padding-left: 14px;
     
     }
