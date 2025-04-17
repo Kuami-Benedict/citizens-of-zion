@@ -122,7 +122,12 @@
 .about h2{
         font-size: 18px;
         text-align: center;
-
+}
+.about-us h2 {
+    font-size: 12px;
+}
+.about-us h1 {
+    font-size: 14px;
 }
 
    .nav-links {
