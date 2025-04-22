@@ -27,7 +27,7 @@
     position: relative;
     margin: 35px 550px;
     background: transparent;
-    border: 10px solid orange;
+    border: 5px solid orange;
     border-radius: 50%;
     backdrop-filter: blur(20px);
     box-shadow: 0 0 30px rgba(0,0,0,-5);
@@ -116,7 +116,8 @@ h1{
     font-weight: 600;
 }
 
-@media screen and (max-width: 480px) {
+/* Mobile portrait */
+@media (max-width: 480px) {
     .logo {
         width: 100px;
         height: 100px;
@@ -124,7 +125,20 @@ h1{
     .wrapper {
         width: 100px ;
         height: 100px;
-        margin: 100px auto;
+        margin: 120px auto;
+    }
+}
+
+/* Mobile landscape */
+@media (min-width: 481px) and (max-width: 767px) and (orientation: landscape) {
+    .logo {
+        width: 100px;
+        height: 100px;
+    }
+    .wrapper {
+        width: 100px;
+        height: 10px;
+        margin: 150px auto;
 
     }
 }
